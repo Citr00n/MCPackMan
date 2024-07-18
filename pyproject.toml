@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mcpackman"
+version = "0.1.0"
+description = ""
+authors = ["Citr0n <citroncorp@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.7"
+prompt-toolkit = "^3.0.47"
+appdirs = "^1.4.4"
+
+[tool.poetry.scripts]
+mcpackman = 'mcpackman.main:cli'
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
